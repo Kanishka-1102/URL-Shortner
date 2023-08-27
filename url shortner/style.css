@@ -1,0 +1,112 @@
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+body{
+ background-image: url('https://wallpapercave.com/wp/wp5144497.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
+  width:100%;
+}
+
+
+.container{
+    position:relative;
+    background: rgba(255,255,255,0.05);
+    border-radius:20px;
+    overflow:hidden;
+    height: 500px;
+    width: 500px;
+    top: 200px;
+    left: 550px;
+    z-index:10;
+    backdrop-filter: blur(15px);
+    border-top: 1px solid rgba(255,255,255,0.2);
+    border-left: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+}
+
+#longurl{
+    position: relative;
+    top: 40%;
+    left: 10%;
+    height: 40px;
+    width: 296px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#shorten{
+    position: relative;
+    top: 40%;
+    left: 12%;
+    height: 40px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    background-color: grey;
+}
+
+#shorten:hover{
+    background-color: pink;
+}
+
+#shorturl{
+    position: relative;
+    top: 45%;
+    left: 10%;
+    height: 40px;
+    width: 270px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 47px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#copy{
+    position: relative;
+    top: 46%;
+    left: 0%;
+    height: 35px;
+    width: 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: grey;
+}
+
+#copy:hover{
+    background-color: pink;
+}
+
+.container p{
+    /* background-color: white; */
+    position: relative;
+    top: 25%;
+    text-decoration-line: underline;
+  text-decoration-color:whitesmoke;
+    left: 13%;
+    height: 60px;
+    width: 400px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    background: linear-gradient(to right, red,orange,red,orange,red,orange);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+
